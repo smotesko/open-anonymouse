@@ -1,0 +1,20 @@
+{
+  "manifest_version": 2,
+
+  "name": "Open anonymouse",
+  "description": "Open URLs in anonymouse.org",
+  "version": "0.1",
+
+  "permissions": [
+    "contextMenus",
+    "tabs"
+  ],
+  "icons": {
+    "16": "icon16.png",
+    "48": "icon48.png",
+    "128": "icon128.png"
+  },
+  "background": {
+    "scripts": ["open-anonymouse.js"]
+  }
+}
